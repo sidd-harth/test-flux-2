@@ -10,4 +10,4 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/sidd-harth/gitops-argocd/solar-system
+  url: https://github.com/sidd-harth/gitops-argocd
