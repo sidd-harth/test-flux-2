@@ -4,6 +4,12 @@ metadata:
   name: helm-health-app
   namespace: flux-system
 spec:
+  values:
+    replicaCount: 2
+    color:
+      triangle: red
+    service:
+      type: NodePort
   chart:
     spec:
       chart: ./helm-chart
