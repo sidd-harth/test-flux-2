@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: ./helm-chart/Chart.yaml
+      chart: ./helm-chart
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
