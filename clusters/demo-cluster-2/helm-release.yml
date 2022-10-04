@@ -1,0 +1,15 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: helm-health-app
+  namespace: flux-system
+spec:
+  chart:
+    spec:
+      chart: ./helm-chart/Chart.yaml
+      reconcileStrategy: ChartVersion
+      sourceRef:
+        kind: GitRepository
+        name: health-app
+  interval: 1m0s
+  targetNamespace: sid
