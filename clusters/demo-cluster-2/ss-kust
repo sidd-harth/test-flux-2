@@ -4,7 +4,7 @@ metadata:
   name: ss-kust
   namespace: flux-system
 spec:
-  interval: 3000s
+  interval: 300s
   path: ./solar-system
   prune: false
   patches:
