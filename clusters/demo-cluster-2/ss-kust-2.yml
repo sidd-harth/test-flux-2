@@ -7,17 +7,17 @@ spec:
   interval: 300s
   path: ./solar-system
   prune: false
-  patches:
-    - patch: |-
-        apiVersion: apps/v1
-        kind: Deployment
-        metadata:
-          name: solar-system
-        spec:
-          replicas: 4          
-      target:
-        name: solar-system
-        kind: Deployment
+#   patches:
+#     - patch: |-
+#         apiVersion: apps/v1
+#         kind: Deployment
+#         metadata:
+#           name: solar-system
+#         spec:
+#           replicas: 4          
+#       target:
+#         name: solar-system
+#         kind: Deployment
   sourceRef:
     kind: GitRepository
     name: solar-system
