@@ -7,7 +7,7 @@ metadata:
   name: solar-system
   namespace: flux-system
 spec:
-  interval: 30s
+  interval: 300s
   ref:
     branch: main
   url: https://github.com/sidd-harth/gitops-argocd
