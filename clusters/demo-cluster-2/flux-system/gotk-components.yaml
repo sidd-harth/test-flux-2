@@ -5590,7 +5590,7 @@ spec:
     targetPort: http-webhook
   selector:
     app: notification-controller
-  type: ClusterIP
+  type: NodePort
 ---
 apiVersion: apps/v1
 kind: Deployment
