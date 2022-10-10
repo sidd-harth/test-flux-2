@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: podinfo
+  name: podinfo-2-4-6
   namespace: default
 spec:
   selector:
